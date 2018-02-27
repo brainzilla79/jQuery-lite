@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>jQuery Lite</title>
+  <script type="text/javascript" src="./lib/jquery_lite.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <style media="screen">
     .my-div {
       padding: 20px;
@@ -14,6 +16,10 @@
     .party {
       background-color: rebeccapurple;
     }
+
+    .unstyle {
+      list-style: none;
+    }
   </style>
 </head>
 <body>
@@ -21,11 +27,21 @@
     <h1>Hello!</h1>
     <p class="remove-me">Remove me!</p>
   </div>
-  
-  <ul>
+  <ul class="first-list">
+    <li id="fart">fart</li>
+    <li>face</li>
+    <li>puppy</li>
+  </ul>
+
+  <ul class="second-list">
     <li></li>
     <li></li>
     <li></li>
   </ul>
+
+  <input type="text" />
+  <input type="text" /Î>
+  <input type="text" />
+  <input type="text" />
 </body>
 </html>
